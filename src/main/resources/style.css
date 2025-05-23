@@ -1,0 +1,75 @@
+/* style.css */
+
+/* Global font and background */
+.root-pane {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Label styling */
+.label-white {
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Base button styling */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 1);
+}
+
+/* Hover effect */
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.text-area {
+    -fx-control-inner-background: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+.titled-pane {
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-background-color: #ecf0f1;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px 8px 0 0;
+}
+
+/* TableView styling */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bdc3c7;
+    -fx-table-cell-border-color: #ecf0f1;
+    -fx-font-size: 15px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell {
+    -fx-padding: 10px;
+}
